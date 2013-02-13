@@ -1,0 +1,12 @@
+build
+*.pbxuser
+DoxygenDocs.docset
+.DS_Store
+*.mode1v3
+*.perspectivev3
+*.rbc
+LocalIssue.zip
+xcuserdata
+
+/archive_name_CR.txt
+/archive_name.txt
