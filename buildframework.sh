@@ -73,9 +73,10 @@ do
     mv "${FILE}" "${HEADERS}/$(basename ${FILE})"
 done
 
-ln -s "${A_FOLDER}" "${VERSIONS}/Current"
-ln -s "${HEADERS}" "${FRAMEWORK_FOLDER}/Headers"
-ln -s "${A_FOLDER}/${SF_TARGET_NAME}" "${FRAMEWORK_FOLDER}/${SF_TARGET_NAME}"
+cd "${FRAMEWORK_FOLDER}"
+ln -s "Versions/A" "Versions/Current"
+ln -s "Versions/A/Headers" "Headers"
+ln -s "Versions/A/${SF_TARGET_NAME}" "${SF_TARGET_NAME}"
 
 # Copy the binary to the other architecture folder to have a complete framework in both.
 # cp -a "${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}" "${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}"
