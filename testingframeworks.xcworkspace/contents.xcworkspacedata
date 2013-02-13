@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Workspace
-   version = "1.0">
-   <FileRef
-      location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:testingframeworks.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:submodules/OHHTTPStubs/OHHTTPStubs/OHHTTPStubs.xcodeproj">
-   </FileRef>
-</Workspace>
+<?xml version='1.0' encoding='UTF-8'?><Workspace version='1.0'><FileRef location='group:Pods/Pods.xcodeproj'/><FileRef location='group:testingframeworks.xcodeproj'/><FileRef location='group:submodules/OHHTTPStubs/OHHTTPStubs/OHHTTPStubs.xcodeproj'/></Workspace>
