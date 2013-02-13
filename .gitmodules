@@ -1,3 +1,6 @@
 [submodule "submodules/OHHTTPStubs"]
 	path = submodules/OHHTTPStubs
 	url = git@github.com:AliSoftware/OHHTTPStubs.git
+[submodule "submodules/xcodetest"]
+	path = submodules/xcodetest
+	url = git@github.com:sgleadow/xcodetest.git
