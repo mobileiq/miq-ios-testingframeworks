@@ -15,6 +15,7 @@
 #import "LRMocky.h"
 #import "OCMock.h"
 #import "OHHTTPStubs.h"
+#import "MIQCoreDataTestBase.h"
 
 #define TEST_CASE_WITH_SUBCLASS(name, subclass) \
 @interface name : subclass \
