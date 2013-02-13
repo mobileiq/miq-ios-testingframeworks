@@ -23,7 +23,7 @@
 
 /* Begin PBXBuildFile section */
 		072404D016CBAFAD007F6395 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072404CF16CBAFAD007F6395 /* Foundation.framework */; };
-		072404D516CBAFAD007F6395 /* MIQTestingFrameworks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 072404D416CBAFAD007F6395 /* MIQTestingFrameworks.h */; };
+		072404D516CBAFAD007F6395 /* MIQTestingFramework.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 072404D416CBAFAD007F6395 /* MIQTestingFramework.h */; };
 		072404E616CBB53A007F6395 /* libOHHTTPStubs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 072404E516CBB53A007F6395 /* libOHHTTPStubs.a */; };
 		072404F316CBBAC9007F6395 /* MIQTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 072404F216CBBAC9007F6395 /* MIQTest.m */; };
 		0724054416CBE0A7007F6395 /* OCMock.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0724054316CBE06A007F6395 /* OCMock.h */; };
@@ -48,17 +48,17 @@
 			dstSubfolderSpec = 16;
 			files = (
 				0724054416CBE0A7007F6395 /* OCMock.h in CopyFiles */,
-				072404D516CBAFAD007F6395 /* MIQTestingFrameworks.h in CopyFiles */,
+				072404D516CBAFAD007F6395 /* MIQTestingFramework.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		072404CC16CBAFAD007F6395 /* libMIQTestingFrameworks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMIQTestingFrameworks.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		072404CC16CBAFAD007F6395 /* libMIQTestingFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMIQTestingFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		072404CF16CBAFAD007F6395 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		072404D316CBAFAD007F6395 /* MIQTestingFrameworks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MIQTestingFrameworks-Prefix.pch"; sourceTree = "<group>"; };
-		072404D416CBAFAD007F6395 /* MIQTestingFrameworks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIQTestingFrameworks.h; sourceTree = "<group>"; };
+		072404D316CBAFAD007F6395 /* MIQTestingFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MIQTestingFramework-Prefix.pch"; sourceTree = "<group>"; };
+		072404D416CBAFAD007F6395 /* MIQTestingFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIQTestingFramework.h; sourceTree = "<group>"; };
 		072404E516CBB53A007F6395 /* libOHHTTPStubs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOHHTTPStubs.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		072404F116CBBAC9007F6395 /* MIQTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIQTest.h; sourceTree = "<group>"; };
 		072404F216CBBAC9007F6395 /* MIQTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIQTest.m; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		072404CD16CBAFAD007F6395 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				072404CC16CBAFAD007F6395 /* libMIQTestingFrameworks.a */,
+				072404CC16CBAFAD007F6395 /* libMIQTestingFramework.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,7 +112,7 @@
 		072404D116CBAFAD007F6395 /* testingframeworks */ = {
 			isa = PBXGroup;
 			children = (
-				072404D416CBAFAD007F6395 /* MIQTestingFrameworks.h */,
+				072404D416CBAFAD007F6395 /* MIQTestingFramework.h */,
 				0724054316CBE06A007F6395 /* OCMock.h */,
 				072404D216CBAFAD007F6395 /* Supporting Files */,
 				072404F116CBBAC9007F6395 /* MIQTest.h */,
@@ -124,7 +124,7 @@
 		072404D216CBAFAD007F6395 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				072404D316CBAFAD007F6395 /* MIQTestingFrameworks-Prefix.pch */,
+				072404D316CBAFAD007F6395 /* MIQTestingFramework-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -132,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		072404CB16CBAFAD007F6395 /* MIQTestingFrameworks */ = {
+		072404CB16CBAFAD007F6395 /* MIQTestingFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 072404DA16CBAFAD007F6395 /* Build configuration list for PBXNativeTarget "MIQTestingFrameworks" */;
+			buildConfigurationList = 072404DA16CBAFAD007F6395 /* Build configuration list for PBXNativeTarget "MIQTestingFramework" */;
 			buildPhases = (
 				072404C816CBAFAD007F6395 /* Sources */,
 				072404C916CBAFAD007F6395 /* Frameworks */,
@@ -145,9 +145,9 @@
 			);
 			dependencies = (
 			);
-			name = MIQTestingFrameworks;
+			name = MIQTestingFramework;
 			productName = testingframeworks;
-			productReference = 072404CC16CBAFAD007F6395 /* libMIQTestingFrameworks.a */;
+			productReference = 072404CC16CBAFAD007F6395 /* libMIQTestingFramework.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -159,7 +159,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Mobile IQ";
 			};
-			buildConfigurationList = 072404C716CBAFAD007F6395 /* Build configuration list for PBXProject "MIQTestingFrameworks" */;
+			buildConfigurationList = 072404C716CBAFAD007F6395 /* Build configuration list for PBXProject "MIQTestingFramework" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -171,7 +171,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				072404CB16CBAFAD007F6395 /* MIQTestingFrameworks */,
+				072404CB16CBAFAD007F6395 /* MIQTestingFramework */,
 				072404EA16CBB79F007F6395 /* Framework */,
 			);
 		};
@@ -222,7 +222,7 @@
 /* Begin PBXTargetDependency section */
 		072404EF16CBB7A5007F6395 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 072404CB16CBAFAD007F6395 /* MIQTestingFrameworks */;
+			target = 072404CB16CBAFAD007F6395 /* MIQTestingFramework */;
 			targetProxy = 072404EE16CBB7A5007F6395 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -287,12 +287,12 @@
 			buildSettings = {
 				DSTROOT = /tmp/testingframeworks.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "testingframeworks/MIQTestingFrameworks-Prefix.pch";
+				GCC_PREFIX_HEADER = "testingframeworks/MIQTestingFramework-Prefix.pch";
 				GENERATE_MASTER_OBJECT_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "${BUILT_PRODUCTS_DIR}";
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MIQTestingFramework;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -303,11 +303,11 @@
 			buildSettings = {
 				DSTROOT = /tmp/testingframeworks.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "testingframeworks/MIQTestingFrameworks-Prefix.pch";
+				GCC_PREFIX_HEADER = "testingframeworks/MIQTestingFramework-Prefix.pch";
 				GENERATE_MASTER_OBJECT_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "${BUILT_PRODUCTS_DIR}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MIQTestingFramework;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -329,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		072404C716CBAFAD007F6395 /* Build configuration list for PBXProject "MIQTestingFrameworks" */ = {
+		072404C716CBAFAD007F6395 /* Build configuration list for PBXProject "MIQTestingFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				072404D816CBAFAD007F6395 /* Debug */,
@@ -338,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		072404DA16CBAFAD007F6395 /* Build configuration list for PBXNativeTarget "MIQTestingFrameworks" */ = {
+		072404DA16CBAFAD007F6395 /* Build configuration list for PBXNativeTarget "MIQTestingFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				072404DB16CBAFAD007F6395 /* Debug */,

@@ -9,7 +9,7 @@ fi
 set -u
 export SF_MASTER_SCRIPT_RUNNING=1
 
-SF_TARGET_NAME=MIQTestingFrameworks
+SF_TARGET_NAME=MIQTestingFramework
 SF_EXECUTABLE_PATH="lib${SF_TARGET_NAME}.a"
 SF_WRAPPER_NAME="${SF_TARGET_NAME}.framework"
 

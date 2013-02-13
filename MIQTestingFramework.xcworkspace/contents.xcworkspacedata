@@ -5,7 +5,7 @@
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:MIQTestingFrameworks.xcodeproj">
+      location = "group:MIQTestingFramework.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:submodules/OHHTTPStubs/OHHTTPStubs/OHHTTPStubs.xcodeproj">
