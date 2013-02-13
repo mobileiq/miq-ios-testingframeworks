@@ -10,6 +10,8 @@
 		072404D016CBAFAD007F6395 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072404CF16CBAFAD007F6395 /* Foundation.framework */; };
 		072404D516CBAFAD007F6395 /* testingframeworks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 072404D416CBAFAD007F6395 /* testingframeworks.h */; };
 		072404D716CBAFAD007F6395 /* testingframeworks.m in Sources */ = {isa = PBXBuildFile; fileRef = 072404D616CBAFAD007F6395 /* testingframeworks.m */; };
+		072404E616CBB53A007F6395 /* libOHHTTPStubs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 072404E516CBB53A007F6395 /* libOHHTTPStubs.a */; };
+		85957C7DDBC244B9B2FA9161 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE273881B0A4EBBADA63A24 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,9 @@
 		072404D316CBAFAD007F6395 /* testingframeworks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testingframeworks-Prefix.pch"; sourceTree = "<group>"; };
 		072404D416CBAFAD007F6395 /* testingframeworks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testingframeworks.h; sourceTree = "<group>"; };
 		072404D616CBAFAD007F6395 /* testingframeworks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testingframeworks.m; sourceTree = "<group>"; };
+		072404E516CBB53A007F6395 /* libOHHTTPStubs.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libOHHTTPStubs.a; path = "submodules/OHHTTPStubs/OHHTTPStubs/build/Release-iphoneos/libOHHTTPStubs.a"; sourceTree = "<group>"; };
+		ADE273881B0A4EBBADA63A24 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0E6B42A7B4D4F4B94675D9C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +43,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				072404E616CBB53A007F6395 /* libOHHTTPStubs.a in Frameworks */,
 				072404D016CBAFAD007F6395 /* Foundation.framework in Frameworks */,
+				85957C7DDBC244B9B2FA9161 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +58,7 @@
 				072404D116CBAFAD007F6395 /* testingframeworks */,
 				072404CE16CBAFAD007F6395 /* Frameworks */,
 				072404CD16CBAFAD007F6395 /* Products */,
+				F0E6B42A7B4D4F4B94675D9C /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				072404CF16CBAFAD007F6395 /* Foundation.framework */,
+				ADE273881B0A4EBBADA63A24 /* libPods.a */,
+				072404E516CBB53A007F6395 /* libOHHTTPStubs.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -98,6 +108,7 @@
 				072404C816CBAFAD007F6395 /* Sources */,
 				072404C916CBAFAD007F6395 /* Frameworks */,
 				072404CA16CBAFAD007F6395 /* CopyFiles */,
+				61D0DBA38635409DBAD57D65 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +144,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61D0DBA38635409DBAD57D65 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		072404C816CBAFAD007F6395 /* Sources */ = {
@@ -201,6 +229,7 @@
 		};
 		072404DB16CBAFAD007F6395 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0E6B42A7B4D4F4B94675D9C /* Pods.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/testingframeworks.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -213,6 +242,7 @@
 		};
 		072404DC16CBAFAD007F6395 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0E6B42A7B4D4F4B94675D9C /* Pods.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/testingframeworks.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -242,6 +272,7 @@
 				072404DC16CBAFAD007F6395 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

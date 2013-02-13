@@ -1,0 +1,14 @@
+
+PODS: 
+- Expecta (0.2.1)
+- LRMocky (0.9.1)
+
+DEPENDENCIES: 
+- Expecta
+- LRMocky
+
+SPEC CHECKSUMS: 
+  Expecta: d46fb1bd78c90a83da0158b9b1e108de106e369f
+  LRMocky: f7f0270e270e1b17648904b2cd042c3d742b8f1b
+
+COCOAPODS: 0.16.1
