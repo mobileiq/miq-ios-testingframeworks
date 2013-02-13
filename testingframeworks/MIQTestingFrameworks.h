@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface testingframeworks : NSObject
-
-@end
+#define EXP_SHORTHAND
+#import "Expecta.h"
+#define LRMOCKY_SUGAR
+#import "LRMocky.h"
+#import "OCMock.h"
+#import "OHHTTPStubs.h"
