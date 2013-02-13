@@ -23,5 +23,8 @@ Once that's done, run `pod install`. You'll also need to update the submodules (
 
 I suggest you build the framework and then add it as a binary to the project you wish to test rather than trying to add it as a submodule.
 
+## Using the framework
+You need to add `-ObjC` and `-all_load` to `Other Linker Flags`. If you use the `MIQCoreDataTestBase` you may need to link your unit test bundle to CoreData.framework. Then simply add `#import <MIQTestingFramework/MIQTestingFramework.h>` to your test or to your test bundle's PCH file and have all the fun in the world.
+
 ## xcodetest
 [xcodetest](https://github.com/sgleadow/xcodetest) is also included here as a submodule, as this seems to be a simple and quite clever way to run your unit tests from the command line. Simply follow the instructions in the readme file. If you're using a workspace, you may need to copy and edit the bash script. Again, copy the dependencies to your project.
