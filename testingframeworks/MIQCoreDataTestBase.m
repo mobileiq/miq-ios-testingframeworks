@@ -42,7 +42,7 @@
 
 - (void)testThatEnvironmentWorks {
     expect(_model).toNot.beNil();
-    STAssertNotNil(self.managedObjectContext, @"managed object context not created");
+    XCTAssertNotNil(self.managedObjectContext, @"managed object context not created");
 }
 
 @end

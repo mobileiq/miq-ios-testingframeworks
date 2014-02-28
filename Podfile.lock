@@ -1,16 +1,13 @@
 PODS:
   - Expecta (0.2.2)
-  - LRMocky (0.9.1)
   - OCMock (2.2)
 
 DEPENDENCIES:
   - Expecta
-  - LRMocky
   - OCMock
 
 SPEC CHECKSUMS:
   Expecta: 99adbb2e366a02796477523bfd426143350d9caf
-  LRMocky: e70338d6306b8ee715c0bb5e182f02654f01fb1a
   OCMock: 5300ae6b75398fc3ae6cbf9102191333d35f6852
 
-COCOAPODS: 0.22.3
+COCOAPODS: 0.29.0

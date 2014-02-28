@@ -10,10 +10,8 @@
 
 #ifdef __OBJC__
 #define EXP_SHORTHAND
+#import <XCTest/XCTest.h>
 #import "Expecta.h"
-#define LRMOCKY_SUGAR
-#define LRMOCKY_SHORTHAND
-#import "LRMocky.h"
 #import "OCMock.h"
 #import "OHHTTPStubs.h"
 #import "MIQCoreDataTestBase.h"
@@ -23,7 +21,7 @@
 @end \
 @implementation name \
 
-#define TEST_CASE(name) TEST_CASE_WITH_SUBCLASS(name, SenTestCase)
+#define TEST_CASE(name) TEST_CASE_WITH_SUBCLASS(name, XCTestCase)
 
 #define END_TEST_CASE \
 @end

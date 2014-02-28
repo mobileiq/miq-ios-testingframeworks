@@ -12,14 +12,14 @@
 
 #define USE_APPLICATION_UNIT_TEST 1
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
 /**
  Base class for Core Data testing
  */
-@interface MIQCoreDataTestBase : SenTestCase
+@interface MIQCoreDataTestBase : XCTestCase
 /**
  Context to use
  */
