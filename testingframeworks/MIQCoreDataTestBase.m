@@ -1,6 +1,5 @@
 //
-//  CoreDataTestBase.m
-//  McClatchy NewsTests
+//  MIQCoreDataTestBase.m
 //
 //  Created by David Hardiman on 21/01/2011.
 //  Copyright 2011 Mobile IQ. All rights reserved.
