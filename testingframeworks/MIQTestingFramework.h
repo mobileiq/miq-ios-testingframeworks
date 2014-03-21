@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 
 #ifdef __OBJC__
-#define EXP_SHORTHAND
 #import <XCTest/XCTest.h>
+#define EXP_SHORTHAND
 #import "Expecta.h"
 #import "OCMock.h"
 #import "OHHTTPStubs.h"
@@ -25,4 +25,6 @@
 
 #define END_TEST_CASE \
 @end
+
+#define Test(x) - (void)test##x
 #endif

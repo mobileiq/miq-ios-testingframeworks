@@ -24,7 +24,6 @@
 /* Begin PBXBuildFile section */
 		072404D016CBAFAD007F6395 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072404CF16CBAFAD007F6395 /* Foundation.framework */; };
 		072404D516CBAFAD007F6395 /* MIQTestingFramework.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 072404D416CBAFAD007F6395 /* MIQTestingFramework.h */; };
-		072404E616CBB53A007F6395 /* libOHHTTPStubs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 072404E516CBB53A007F6395 /* libOHHTTPStubs.a */; };
 		072404F316CBBAC9007F6395 /* MIQTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 072404F216CBBAC9007F6395 /* MIQTest.m */; };
 		0724054416CBE0A7007F6395 /* OCMock.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0724054316CBE06A007F6395 /* OCMock.h */; };
 		072EE63A16CBE348001EE085 /* MIQCoreDataTestBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EE63916CBE348001EE085 /* MIQCoreDataTestBase.m */; };
@@ -63,7 +62,6 @@
 		072404CF16CBAFAD007F6395 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		072404D316CBAFAD007F6395 /* MIQTestingFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MIQTestingFramework-Prefix.pch"; sourceTree = "<group>"; };
 		072404D416CBAFAD007F6395 /* MIQTestingFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIQTestingFramework.h; sourceTree = "<group>"; };
-		072404E516CBB53A007F6395 /* libOHHTTPStubs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOHHTTPStubs.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		072404F116CBBAC9007F6395 /* MIQTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIQTest.h; sourceTree = "<group>"; };
 		072404F216CBBAC9007F6395 /* MIQTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIQTest.m; sourceTree = "<group>"; };
 		0724054316CBE06A007F6395 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				077C453018C07AFE0084F9E3 /* XCTest.framework in Frameworks */,
-				072404E616CBB53A007F6395 /* libOHHTTPStubs.a in Frameworks */,
 				072404D016CBAFAD007F6395 /* Foundation.framework in Frameworks */,
 				85957C7DDBC244B9B2FA9161 /* libPods.a in Frameworks */,
 			);
@@ -113,7 +110,6 @@
 				077C452F18C07AFE0084F9E3 /* XCTest.framework */,
 				072404CF16CBAFAD007F6395 /* Foundation.framework */,
 				ADE273881B0A4EBBADA63A24 /* libPods.a */,
-				072404E516CBB53A007F6395 /* libOHHTTPStubs.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,7 +163,7 @@
 		072404C416CBAFAD007F6395 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Mobile IQ";
 			};
 			buildConfigurationList = 072404C716CBAFAD007F6395 /* Build configuration list for PBXProject "MIQTestingFramework" */;
@@ -297,7 +293,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F0E6B42A7B4D4F4B94675D9C /* Pods.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/testingframeworks.dst;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -323,7 +318,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F0E6B42A7B4D4F4B94675D9C /* Pods.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/testingframeworks.dst;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -347,7 +341,6 @@
 		072404EC16CBB79F007F6395 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -355,7 +348,6 @@
 		072404ED16CBB79F007F6395 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

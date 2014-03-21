@@ -1,4 +1,5 @@
-platform :ios, deployment_target: 5.0
+platform :ios, deployment_target: 6.0
 
 pod 'Expecta'
 pod 'OCMock'
+pod 'OHHTTPStubs'
