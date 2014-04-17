@@ -30,6 +30,13 @@
  */
 @property (nonatomic, strong) NSPersistentStore *store;
 
+/**
+ The bundle to search for the model in. Defaults to
+ AppStudio.bundle. To override, you must set it before
+ the call to setupCoreData.
+ */
+@property (nonatomic, strong) NSBundle *modelBundle;
+
 - (void)setupCoreData;
 
 @end

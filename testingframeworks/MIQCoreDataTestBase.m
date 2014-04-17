@@ -15,7 +15,7 @@
 @synthesize persistentStoreCoordinator = _coord;
 
 - (void)setupCoreData {
-    _model = [NSManagedObjectModel mergedModelFromBundles:nil];
+    _model = [NSManagedObjectModel mergedModelFromBundles:self.modelBundle];
     _coord = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:_model];
     _store = [_coord addPersistentStoreWithType:NSInMemoryStoreType
                                   configuration:nil
@@ -29,6 +29,13 @@
 - (void)setUp {
     [super setUp];
     [self setupCoreData];
+}
+
+- (NSBundle *)modelBundle {
+    if (_modelBundle == nil) {
+        _modelBundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"AppStudio" ofType:@"bundle"]];
+    }
+    return _modelBundle;
 }
 
 - (void)tearDown {
