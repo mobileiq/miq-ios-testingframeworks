@@ -15,7 +15,7 @@
 @synthesize persistentStoreCoordinator = _coord;
 
 - (void)setupCoreData {
-    _model = [NSManagedObjectModel mergedModelFromBundles:nil];
+    _model = [NSManagedObjectModel mergedModelFromBundles:self.modelBundles];
     _coord = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:_model];
     _store = [_coord addPersistentStoreWithType:NSInMemoryStoreType
                                   configuration:nil
