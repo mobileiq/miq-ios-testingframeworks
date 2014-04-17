@@ -30,6 +30,14 @@
  */
 @property (nonatomic, strong) NSPersistentStore *store;
 
+/**
+ An array of instances of NSBundle to search. If nil,
+ then the main bundle is searched. The model will be created
+ by merging all the models found in given bundles.
+ To override, you must set it before the call to setupCoreData.
+ */
+@property (nonatomic, strong) NSArray *modelBundles;
+
 - (void)setupCoreData;
 
 @end
