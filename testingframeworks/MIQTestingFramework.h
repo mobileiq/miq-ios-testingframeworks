@@ -13,6 +13,7 @@
 #define EXP_SHORTHAND
 #import "Expecta.h"
 #import "OCMock.h"
+#import "OCMockObject+AsyncVerify.h"
 #import "OHHTTPStubs.h"
 #import "MIQCoreDataTestBase.h"
 
