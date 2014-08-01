@@ -1,6 +1,6 @@
 //
 //  OCMockObject+AsyncVerify.m
-//  Gateway
+//  testingframeworks
 //
 //  Created by Sebastian Skuse on 25/07/2014.
 //  Copyright (c) 2014 Mobile IQ Ltd. All rights reserved.
