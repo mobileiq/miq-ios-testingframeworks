@@ -29,6 +29,7 @@
 		072EE63A16CBE348001EE085 /* MIQCoreDataTestBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EE63916CBE348001EE085 /* MIQCoreDataTestBase.m */; };
 		072EE63D16CBE47B001EE085 /* MIQCoreDataTestBase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 072EE63816CBE348001EE085 /* MIQCoreDataTestBase.h */; };
 		077C453018C07AFE0084F9E3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077C452F18C07AFE0084F9E3 /* XCTest.framework */; };
+		48A74B46198B8E1B00B57F89 /* OCMockObject+AsyncVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A74B45198B8E1B00B57F89 /* OCMockObject+AsyncVerify.m */; };
 		85957C7DDBC244B9B2FA9161 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE273881B0A4EBBADA63A24 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,8 @@
 		072EE63816CBE348001EE085 /* MIQCoreDataTestBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIQCoreDataTestBase.h; sourceTree = "<group>"; };
 		072EE63916CBE348001EE085 /* MIQCoreDataTestBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIQCoreDataTestBase.m; sourceTree = "<group>"; };
 		077C452F18C07AFE0084F9E3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		48A74B44198B8E1B00B57F89 /* OCMockObject+AsyncVerify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCMockObject+AsyncVerify.h"; sourceTree = "<group>"; };
+		48A74B45198B8E1B00B57F89 /* OCMockObject+AsyncVerify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCMockObject+AsyncVerify.m"; sourceTree = "<group>"; };
 		ADE273881B0A4EBBADA63A24 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E6B42A7B4D4F4B94675D9C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -119,6 +122,8 @@
 			children = (
 				072404D416CBAFAD007F6395 /* MIQTestingFramework.h */,
 				0724054316CBE06A007F6395 /* OCMock.h */,
+				48A74B44198B8E1B00B57F89 /* OCMockObject+AsyncVerify.h */,
+				48A74B45198B8E1B00B57F89 /* OCMockObject+AsyncVerify.m */,
 				072404D216CBAFAD007F6395 /* Supporting Files */,
 				072404F116CBBAC9007F6395 /* MIQTest.h */,
 				072404F216CBBAC9007F6395 /* MIQTest.m */,
@@ -220,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48A74B46198B8E1B00B57F89 /* OCMockObject+AsyncVerify.m in Sources */,
 				072404F316CBBAC9007F6395 /* MIQTest.m in Sources */,
 				072EE63A16CBE348001EE085 /* MIQCoreDataTestBase.m in Sources */,
 			);
