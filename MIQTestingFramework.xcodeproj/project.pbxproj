@@ -30,6 +30,7 @@
 		072EE63D16CBE47B001EE085 /* MIQCoreDataTestBase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 072EE63816CBE348001EE085 /* MIQCoreDataTestBase.h */; };
 		077C453018C07AFE0084F9E3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077C452F18C07AFE0084F9E3 /* XCTest.framework */; };
 		48A74B46198B8E1B00B57F89 /* OCMockObject+AsyncVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A74B45198B8E1B00B57F89 /* OCMockObject+AsyncVerify.m */; };
+		48A74B47198B924100B57F89 /* OCMockObject+AsyncVerify.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 48A74B44198B8E1B00B57F89 /* OCMockObject+AsyncVerify.h */; };
 		85957C7DDBC244B9B2FA9161 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE273881B0A4EBBADA63A24 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 			dstPath = "zinclude/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				48A74B47198B924100B57F89 /* OCMockObject+AsyncVerify.h in CopyFiles */,
 				072EE63D16CBE47B001EE085 /* MIQCoreDataTestBase.h in CopyFiles */,
 				0724054416CBE0A7007F6395 /* OCMock.h in CopyFiles */,
 				072404D516CBAFAD007F6395 /* MIQTestingFramework.h in CopyFiles */,
