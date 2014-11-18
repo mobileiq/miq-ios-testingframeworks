@@ -18,7 +18,7 @@
 /**
  Base class for Core Data testing
  */
-@interface MIQCoreDataTestBase : XCTestCase
+@interface MIQCoreDataTestCase : XCTestCase
 /**
  Context to use
  */

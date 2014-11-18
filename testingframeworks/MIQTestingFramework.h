@@ -15,7 +15,7 @@
 #import "OCMock.h"
 #import "OCMockObject+AsyncVerify.h"
 #import "OHHTTPStubs.h"
-#import "MIQCoreDataTestBase.h"
+#import "MIQCoreDataTestCase.h"
 
 #define TEST_CASE_WITH_SUBCLASS(name, subclass) \
 @interface name : subclass \
