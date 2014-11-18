@@ -24,7 +24,7 @@
 @end \
 @implementation name \
 
-#define TEST_CASE(name) TEST_CASE_WITH_SUBCLASS(name, XCTestCMIQTestingFramework.frameworkase)
+#define TEST_CASE(name) TEST_CASE_WITH_SUBCLASS(name, XCTestCase)
 
 #define END_TEST_CASE \
 @end
