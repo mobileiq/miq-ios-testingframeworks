@@ -5,10 +5,10 @@
 //  Copyright 2011 Mobile IQ. All rights reserved.
 //
 
-#import "MIQCoreDataTestBase.h"
+#import "MIQCoreDataTestCase.h"
 #import "MIQTestingFramework.h"
 
-@implementation MIQCoreDataTestBase {
+@implementation MIQCoreDataTestCase {
     NSPersistentStoreCoordinator *_coord;
     NSManagedObjectModel *_model;
 }

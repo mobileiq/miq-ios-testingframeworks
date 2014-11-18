@@ -26,8 +26,8 @@
 		072404D516CBAFAD007F6395 /* MIQTestingFramework.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 072404D416CBAFAD007F6395 /* MIQTestingFramework.h */; };
 		072404F316CBBAC9007F6395 /* MIQTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 072404F216CBBAC9007F6395 /* MIQTest.m */; };
 		0724054416CBE0A7007F6395 /* OCMock.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0724054316CBE06A007F6395 /* OCMock.h */; };
-		072EE63A16CBE348001EE085 /* MIQCoreDataTestBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EE63916CBE348001EE085 /* MIQCoreDataTestBase.m */; };
-		072EE63D16CBE47B001EE085 /* MIQCoreDataTestBase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 072EE63816CBE348001EE085 /* MIQCoreDataTestBase.h */; };
+		072EE63A16CBE348001EE085 /* MIQCoreDataTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EE63916CBE348001EE085 /* MIQCoreDataTestCase.m */; };
+		072EE63D16CBE47B001EE085 /* MIQCoreDataTestCase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 072EE63816CBE348001EE085 /* MIQCoreDataTestCase.h */; };
 		077C453018C07AFE0084F9E3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077C452F18C07AFE0084F9E3 /* XCTest.framework */; };
 		48A74B46198B8E1B00B57F89 /* OCMockObject+AsyncVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A74B45198B8E1B00B57F89 /* OCMockObject+AsyncVerify.m */; };
 		48A74B47198B924100B57F89 /* OCMockObject+AsyncVerify.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 48A74B44198B8E1B00B57F89 /* OCMockObject+AsyncVerify.h */; };
@@ -52,7 +52,7 @@
 			dstSubfolderSpec = 16;
 			files = (
 				48A74B47198B924100B57F89 /* OCMockObject+AsyncVerify.h in CopyFiles */,
-				072EE63D16CBE47B001EE085 /* MIQCoreDataTestBase.h in CopyFiles */,
+				072EE63D16CBE47B001EE085 /* MIQCoreDataTestCase.h in CopyFiles */,
 				0724054416CBE0A7007F6395 /* OCMock.h in CopyFiles */,
 				072404D516CBAFAD007F6395 /* MIQTestingFramework.h in CopyFiles */,
 			);
@@ -67,9 +67,9 @@
 		072404D416CBAFAD007F6395 /* MIQTestingFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIQTestingFramework.h; sourceTree = "<group>"; };
 		072404F116CBBAC9007F6395 /* MIQTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIQTest.h; sourceTree = "<group>"; };
 		072404F216CBBAC9007F6395 /* MIQTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIQTest.m; sourceTree = "<group>"; };
+		072EE63816CBE348001EE085 /* MIQCoreDataTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIQCoreDataTestCase.h; sourceTree = "<group>"; };
 		0724054316CBE06A007F6395 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
-		072EE63816CBE348001EE085 /* MIQCoreDataTestBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIQCoreDataTestBase.h; sourceTree = "<group>"; };
-		072EE63916CBE348001EE085 /* MIQCoreDataTestBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIQCoreDataTestBase.m; sourceTree = "<group>"; };
+		072EE63916CBE348001EE085 /* MIQCoreDataTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIQCoreDataTestCase.m; sourceTree = "<group>"; };
 		077C452F18C07AFE0084F9E3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		48A74B44198B8E1B00B57F89 /* OCMockObject+AsyncVerify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCMockObject+AsyncVerify.h"; sourceTree = "<group>"; };
 		48A74B45198B8E1B00B57F89 /* OCMockObject+AsyncVerify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCMockObject+AsyncVerify.m"; sourceTree = "<group>"; };
@@ -129,8 +129,8 @@
 				072404D216CBAFAD007F6395 /* Supporting Files */,
 				072404F116CBBAC9007F6395 /* MIQTest.h */,
 				072404F216CBBAC9007F6395 /* MIQTest.m */,
-				072EE63816CBE348001EE085 /* MIQCoreDataTestBase.h */,
-				072EE63916CBE348001EE085 /* MIQCoreDataTestBase.m */,
+				072EE63816CBE348001EE085 /* MIQCoreDataTestCase.h */,
+				072EE63916CBE348001EE085 /* MIQCoreDataTestCase.m */,
 			);
 			path = testingframeworks;
 			sourceTree = "<group>";
@@ -229,7 +229,7 @@
 			files = (
 				48A74B46198B8E1B00B57F89 /* OCMockObject+AsyncVerify.m in Sources */,
 				072404F316CBBAC9007F6395 /* MIQTest.m in Sources */,
-				072EE63A16CBE348001EE085 /* MIQCoreDataTestBase.m in Sources */,
+				072EE63A16CBE348001EE085 /* MIQCoreDataTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +306,7 @@
 					"$(inherited)",
 					"\\\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\\\"",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testingframeworks/MIQTestingFramework-Prefix.pch";
@@ -331,6 +332,7 @@
 					"$(inherited)",
 					"\\\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\\\"",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testingframeworks/MIQTestingFramework-Prefix.pch";
