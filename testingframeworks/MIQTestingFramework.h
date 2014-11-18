@@ -12,9 +12,11 @@
 #import <XCTest/XCTest.h>
 #define EXP_SHORTHAND
 #import "Expecta.h"
+#import "NSObject+Expecta.h" // Useful for creating custom expecta matchers
 #import "OCMock.h"
 #import "OCMockObject+AsyncVerify.h"
 #import "OHHTTPStubs.h"
+#import "OHHTTPStubsResponse+JSON.h"
 #import "MIQCoreDataTestCase.h"
 
 #define TEST_CASE_WITH_SUBCLASS(name, subclass) \
@@ -22,7 +24,7 @@
 @end \
 @implementation name \
 
-#define TEST_CASE(name) TEST_CASE_WITH_SUBCLASS(name, XCTestCase)
+#define TEST_CASE(name) TEST_CASE_WITH_SUBCLASS(name, XCTestCMIQTestingFramework.frameworkase)
 
 #define END_TEST_CASE \
 @end
