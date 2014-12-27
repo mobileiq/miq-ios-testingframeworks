@@ -96,7 +96,7 @@
 		A6B3860E46E9FE7F93BA9C5C /* ExpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D6A928D6E3C6AFBAB5ABB5 /* ExpectaSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AA17CCFA8A8ECBFD05084316 /* OCPartialMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F3634E4CB3B2C00826118E /* OCPartialMockObject.h */; };
 		ABDE12FFCFB3514590335EA9 /* ExpectaSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C53DBE1EAB1937B331D805 /* ExpectaSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC00A6FF47C4AEE038B44CE5 /* NSObject+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = F3ABDBF7091A70C3F1E0C94B /* NSObject+Expecta.h */; };
+		AC00A6FF47C4AEE038B44CE5 /* NSObject+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = F3ABDBF7091A70C3F1E0C94B /* NSObject+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC09AA0F24234DBECB6CE0A6 /* EXPMatchers+beSupersetOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 112BA270600280B5F7386907 /* EXPMatchers+beSupersetOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADDE4810EFAAAE22B4F9EA42 /* EXPUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 839CBFB3D303D59072C547D7 /* EXPUnsupportedObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AE9C7CA4DDE61EDC9C15F0C6 /* EXPMatcherHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = B06773B16E727AA9135260D1 /* EXPMatcherHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
